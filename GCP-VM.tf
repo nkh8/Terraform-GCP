@@ -16,7 +16,7 @@ provider "google" {
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "terraform-network2"
+  name = "terraform-network3"
 }
 
 resource "google_compute_instance" "vm_instance" {
